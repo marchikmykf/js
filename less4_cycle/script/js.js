@@ -93,7 +93,7 @@ while (checkNumber >= 1) {
 console.log(i);
 alert(i);
 // 10
-const randomNumber = Math.floor(Math.random() * 10) + 1; // Загадка від 1 до 10
+const randomNumber = Math.floor(Math.random() * 10) + 1; 
 let userAttempt;
 
 while (true) {
@@ -108,7 +108,7 @@ while (true) {
     } else if (userAttempt === randomNumber) {
         console.log("Ви вгадали");
         alert("Ви вгадали");
-        break; // Гра закінчена, виходимо з циклу
+        break; 
     } else {
         alert("Будь ласка, введіть число.");
     }
